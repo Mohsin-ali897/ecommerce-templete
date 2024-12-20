@@ -12,7 +12,6 @@ export default function ShopPage() {
       <div className='my-3'>
       <Footer/>
       </div>
-
     </div>
   )
 }

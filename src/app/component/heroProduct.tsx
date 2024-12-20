@@ -1,8 +1,7 @@
-
-import Image from 'next/image';
-import Link from 'next/link';
-import pro1 from '../assets/heropro.png';
-import pro2 from '../assets/Granite square side table 1 (1).png';
+import Image from "next/image";
+import Link from "next/link";
+import pro1 from "../assets/heropro.png";
+import pro2 from "../assets/Granite square side table 1 (1).png";
 
 export default function HeroProduct() {
   return (
@@ -13,11 +12,9 @@ export default function HeroProduct() {
           src={pro2}
           alt="Side Table"
           objectFit="cover"
-
           className="h-[200px] w-[300px]  md:h-[300px] md:w-[400px] "
         />
 
-        
         <h2 className="text-lg md:text-2xl font-medium leading-[34px] md:leading-[54px] capitalize ">
           Side Table
         </h2>
@@ -49,4 +46,3 @@ export default function HeroProduct() {
     </div>
   );
 }
-

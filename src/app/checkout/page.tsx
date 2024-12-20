@@ -142,22 +142,3 @@ export default function Checkout() {
     </div>
   )
 }
-{/* <div className=''>
-            {RecentBlogCard.map((Elm)=>{
-              return(
-                <div className='flex items-center gap-3'>
-                  <div className='h-20 w-20 my-3'>
-                    <Image
-                    src={Elm.pic}
-                    alt='post Image'
-                    />
-                  </div>
-                  <div>
-                    <p>{Elm.intro}</p>
-                    <p className='font-normal text-[#9f9f9f]'>03 Aug 2022</p>
-                    </div>
-
-                </div>
-              )
-            })}
-  </div> */}
