@@ -43,7 +43,7 @@ export default function TopPick() {
       <TopPickProductList/>
       
       <div className="h-auto w-full text-center p-[20px]">
-        <Link href='/'>View More</Link>
+        <Link href='/shoppage' className="pb-2 hover:border-b-black hover:border-b-[2px] text-[16px] font-medium">View More</Link>
       </div>
     </div>
   );

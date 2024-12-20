@@ -57,7 +57,7 @@ export default function Blog() {
                 Read More
               </Link>
               <p className="font-normal text-sm tracking-wide text-center my-4 leading-4 text-gray-500">
-                <FaRegClock className="inline mr-1" fontSize="16" /> 5 min{" "}
+                <FaRegClock className="inline mr-1" fontSize="16" /> 5 min
                 <CiCalendarDate className="inline mx-1" fontSize="20" /> 12
                 <sup>th</sup> Oct 2022
               </p>
@@ -70,9 +70,9 @@ export default function Blog() {
       <div className="flex justify-center items-center w-full h-auto mt-8">
         <Link
           href="/shoppage/cartPage/account/contact/blog"
-          className="text-center font-medium text-[16px] md:text-[20px] leading-5 hover:underline"
+          className="text-center font-medium text-[16px] md:text-[20px] leading-5 hover:border-b-2 hover:border-b-black hover:pb-2"
         >
-          View More
+          View All Post
         </Link>
       </div>
     </div>

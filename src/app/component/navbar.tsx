@@ -133,7 +133,7 @@ export default function Navbar() {
         </ul>
 
         {/* Hamburger Menu Icon */}
-        <div className="md:hidden">
+        <div className="md:hidden z-10">
           <button onClick={toggleMenu} className="text-2xl">
             {isMenuOpen ? <IoClose /> : <GiHamburgerMenu />}
           </button>

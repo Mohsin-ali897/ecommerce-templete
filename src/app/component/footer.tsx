@@ -1,14 +1,14 @@
-
 import React from 'react';
 import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className="container bg-white w-full p-5 box-border">
+    <footer className='bg-white w-[100%]'>
+    <div className="container bg-white overflow-x-hidden">
       {/* Main Container */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start h-auto max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-start h-auto max-w-7xl mx-auto px-4">
         {/* First Section */}
-        <div className="flex  justify-center items-center text-sm">
+        <div className="flex justify-center items-center text-sm">
           <p className="font-normal text-[#9F9F9F] text-center md:text-left">
             400 University Drive Suite 200 Coral Gables,<br /> FL 33134 USA
           </p>
@@ -50,12 +50,12 @@ export default function Footer() {
       </div>
 
       {/* Footer Bottom */}
-      <div className='flex justify-center sm:justify-start'>
-      <p className="text-center text-black mt-6 text-xs">
-        &copy; 2022 Meubel House. All rights reserved.
-      </p>
+      <div className="flex justify-center sm:justify-start">
+        <p className="text-center text-black mt-6 text-xs">
+          &copy; 2022 Meubel House. All rights reserved.
+        </p>
       </div>
     </div>
+    </footer>
   );
 }
-

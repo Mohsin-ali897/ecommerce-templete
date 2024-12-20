@@ -33,7 +33,7 @@ export default function Checkout() {
       {/* Billing Details Section */}
       <div className='w-full md:w-[400px] flex flex-col gap-5  p-4 sm:p-6 rounded-lg'>
         <h2 className='font-semibold text-lg sm:text-[24px] md:text-[28px] leading-8 text-start'>Billing details</h2>
-        <div className='flex flex-wrap gap-4'>
+        <div className='flex flex-col xs:flex-row gap-4'>
           <div className='w-full sm:w-[48%]'>
             <label htmlFor="" className='text-sm block mb-2'>First Name</label>
             <input type="text" className='h-10 sm:h-12 w-full border-[1px] border-[#9F9F9F] block rounded-[10px] px-4' />
@@ -103,7 +103,7 @@ export default function Checkout() {
 
         <div>
           <h5 className="relative pl-6 text-base font-medium my-3">
-            <span className="absolute top-1/2 left-0 transform -translate-y-1/2 w-3 h-3 rounded-full border border-black"></span>
+            <span className="absolute top-1/2 left-0 transform -translate-y-1/2 w-3 h-3 rounded-full border bg-black border-black"></span>
             Direct Bank Transfer
           </h5>
           <p className='text-sm mb-4'>

@@ -135,7 +135,7 @@ export default function Contact() {
 
       {/* Submit Button */}
       <div className="flex justify-start">
-        <button className="h-12 px-12 w-screen xs:w-[180px] font-medium text-white bg-black rounded-[10px] hover:bg-gray-800 transition-all">
+        <button className="h-12 px-12 w-screen xs:w-[180px] font-medium text-black bg-white  border-2 border-black rounded-[10px] hover:bg-gray-800 hover:text-white transition-all">
           Submit
         </button>
       </div>
